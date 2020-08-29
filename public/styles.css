@@ -1,0 +1,382 @@
+html,body{
+  background-color: #ffffff;
+  font-family: 'Source Sans Pro',sans-serif;
+  overflow-x: hidden !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+*{
+  text-decoration: none !important;
+}
+
+.nav{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px 0 25px;
+  background-color: #ffffff;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav .links a{
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+.nav .links .mainlink{
+ color: #2f8be0;
+}
+.nav h4{
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+/* LANDING CSS */
+.landing{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.landingText h1{
+  font-size: 6vw;
+  margin: 0 !important;
+}
+
+.landingText h3{
+  margin: 6px !important;
+  font-size: 40px;
+  opacity: 0.6;
+  line-height: 70px;
+  color: #000;
+}
+
+.landingText .btn{
+  width: 120px;
+  margin-top: 30px;
+  font-size: 1.2vw;
+  padding: 14px 20px 14px 20px;
+  background-color: #1d3557;
+  color: #ffffff;
+  border-radius: 45px;
+}
+
+.landingText .btn a{
+  font-size: 1.2vw;
+  color: #ffffff;
+}
+
+.landingImage img{
+  width: 28vw;
+}
+
+/* ABOUT CSS */
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.aboutText h1{
+  font-size: 4vw;
+  margin: 0 !important;
+}
+
+.aboutText h3{
+  margin: 6px !important;
+  font-size: 40px;
+  opacity: 0.6;
+  color: #000;
+  line-height: 70px;
+}
+
+.aboutImage img{
+  width: 28vw;
+}
+/* INFO_SECTION CSS*/
+
+.infoSection{
+  height: 600px;
+}
+
+.infoCards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+
+.infoCards .card{
+  position: relative;
+  height: 360px;
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0,0.09),0 10px 10px rgba(0, 0, 0, 0,0.09);
+}
+
+.infoCards .one .cardoneImg{
+  width: 300px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.infoCards .two .cardtwoImg{
+  width: 300px;
+  position: absolute;
+  top: -20px;
+  right: -50px;
+}
+
+.cardbgone{
+  height: 150px;
+  background-color: #023e8a;
+}
+
+.cardbgtwo{
+  height: 150px;
+  background-color: #0077b6;
+}
+
+.cardContent{
+  padding: 0 20px;
+}
+
+.cardContent h2{
+  font-weight: 600;
+}
+
+.cardContent p{
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+.cardContent .cardBtn{
+  position: absolute;
+  right: 20px;
+  padding: 10px;
+  background-color: #ededed;
+  width: 25px;
+  height: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover{
+  background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+}
+
+.infoCardstwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0 40px 0;
+}
+
+.infoCardstwo .card{
+  position: relative;
+  height: 360px;
+  width: 350px;
+  background: #ffffff;
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0,0.09),0 10px 10px rgba(0, 0, 0, 0,0.09);
+}
+
+.infoCardstwo .three .cardthreeImg{
+  width: 300px;
+  position: absolute;
+  top: -50px;
+  right: -50px;
+}
+
+.infoCardstwo .four .cardfourImg{
+  width: 300px;
+  position: absolute;
+  top: -20px;
+  right: -50px;
+}
+
+.cardbgthree{
+  height: 150px;
+  background-color: #0096c7;
+}
+
+.cardbgfour{
+  top: 30px;
+  height: 150px;
+  background-color: #00b4d8;
+}
+
+.cardContent{
+  padding: 0 20px;
+}
+
+.cardContent h2{
+  font-weight: 600;
+}
+
+.cardContent p{
+  line-height: 30px;
+  opacity: 0.6;
+}
+
+.cardContent .cardBtn{
+  position: absolute;
+  right: 20px;
+  padding: 10px;
+  background-color: #ededed;
+  width: 25px;
+  height: 20px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+}
+
+.cardContent .cardBtn:hover{
+  background-color: #2f8be0;
+}
+
+.cardContent .cardBtn .cardIcon{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  width: 16px;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 700px){
+  .nav{
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    height: auto;
+    overflow: hidden;
+  }
+  .nav h4{
+    font-size: 6vw;
+    margin-top: 10px;
+    margin-bottom: 14px;
+  }
+  .nav .links a{
+    margin-right: 25px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  /* LANDING PAGE */
+  .landing{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin-top: 100px ;
+  }
+  .landingText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .landingText h3{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .landingText .btn{
+    margin: 0 auto;
+  }
+  .landingText .btn a{
+    font-size: 3vw;
+  }
+  .landingImage img{
+    height: 400px;
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+
+  /* ABOUT */
+  .about{
+    flex-direction: column-reverse;
+    height: 750px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 100px;
+    margin-top: 100px ;
+  }
+  .aboutText h1{
+    font-size: 6vw;
+    margin: 0 !important;
+  }
+  .aboutText h3{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .aboutImage img{
+    width: 52vw;
+    margin-bottom: 20px;
+  }
+
+
+  .infoSection{
+    height: auto;
+    top: 100px;
+    margin-top: 100px ;
+  }
+
+  .infoCards{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .infoCardstwo{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+  .cardbgthree{
+    top: -20px;
+    margin-top: -20px ;
+    height: 150px;
+  }
+
+}
