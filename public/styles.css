@@ -149,14 +149,14 @@ html,body{
   width: 200px;
   position: absolute;
   top: -50px;
-  right: -50px;
+
 }
 
 .infoCards .two .cardtwoImg{
   width: 150px;
   position: absolute;
   top: -20px;
-  right: -50px;
+
 }
 
 .cardbgone{
@@ -227,14 +227,14 @@ html,body{
   width: 190px;
   position: absolute;
   top: -50px;
-  right: -50px;
+
 }
 
 .infoCardstwo .four .cardfourImg{
   width: 150px;
   position: absolute;
   top: -20px;
-  right: -50px;
+
 }
 
 .cardbgthree{
@@ -365,7 +365,6 @@ html,body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 400px;
     margin-top: 100px ;
   }
   .aboutText h1{
