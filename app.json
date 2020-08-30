@@ -1,0 +1,8 @@
+{
+  "name": "secret-board",
+  "description": "MessageApp説明",
+  "repository": "https://github.com/progedu/MessengerExplanation",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}

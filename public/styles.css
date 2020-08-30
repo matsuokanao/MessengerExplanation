@@ -53,7 +53,7 @@ html,body{
   height: 100vh;
 }
 .landingText h1{
-  font-size: 6vw;
+  font-size: 15vw;
   margin: 0 !important;
 }
 
@@ -65,22 +65,33 @@ html,body{
   color: #000;
 }
 
-.landingText .btn{
-  width: 120px;
-  margin-top: 30px;
-  font-size: 1.2vw;
-  padding: 14px 20px 14px 20px;
-  background-color: #1d3557;
-  color: #ffffff;
-  border-radius: 45px;
-}
-
-.landingText .btn a{
-  font-size: 1.2vw;
-  color: #ffffff;
-}
-
 .landingImage img{
+  width: 28vw;
+}
+
+/* 2 */
+.landing2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+.landingText2 h1{
+  font-size: 4vw;
+  margin: 0 !important;
+}
+
+.landingText2 h3{
+  margin: 6px !important;
+  font-size: 30px;
+  opacity: 0.6;
+  line-height: 70px;
+  color: #000;
+}
+
+.landingImage2 img{
   width: 28vw;
 }
 
@@ -101,7 +112,7 @@ html,body{
 
 .aboutText h3{
   margin: 6px !important;
-  font-size: 40px;
+  font-size: 30px;
   opacity: 0.6;
   color: #000;
   line-height: 70px;
@@ -110,6 +121,8 @@ html,body{
 .aboutImage img{
   width: 28vw;
 }
+
+
 /* INFO_SECTION CSS*/
 
 .infoSection{
@@ -133,14 +146,14 @@ html,body{
 }
 
 .infoCards .one .cardoneImg{
-  width: 300px;
+  width: 200px;
   position: absolute;
   top: -50px;
   right: -50px;
 }
 
 .infoCards .two .cardtwoImg{
-  width: 300px;
+  width: 150px;
   position: absolute;
   top: -20px;
   right: -50px;
@@ -184,14 +197,14 @@ html,body{
 }
 
 .cardContent .cardBtn:hover{
-  background-color: #2f8be0;
+  background-color: #fdffb6;
 }
 
 .cardContent .cardBtn .cardIcon{
   position: relative;
   top: 0px;
   left: 0px;
-  width: 16px;
+  width: 30px;
 }
 
 .infoCardstwo{
@@ -211,14 +224,14 @@ html,body{
 }
 
 .infoCardstwo .three .cardthreeImg{
-  width: 300px;
+  width: 190px;
   position: absolute;
   top: -50px;
   right: -50px;
 }
 
 .infoCardstwo .four .cardfourImg{
-  width: 300px;
+  width: 150px;
   position: absolute;
   top: -20px;
   right: -50px;
@@ -263,14 +276,14 @@ html,body{
 }
 
 .cardContent .cardBtn:hover{
-  background-color: #2f8be0;
+  background-color: #fdffb6;
 }
 
 .cardContent .cardBtn .cardIcon{
   position: relative;
   top: 0px;
   left: 0px;
-  width: 16px;
+  width: 30px;
 }
 
 /* RESPONSIVE */
@@ -305,24 +318,45 @@ html,body{
     margin-top: 100px ;
   }
   .landingText h1{
-    font-size: 6vw;
+    font-size: 20vw;
     margin: 0 !important;
   }
   .landingText h3{
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
   }
-  .landingText .btn{
-    margin: 0 auto;
-  }
-  .landingText .btn a{
-    font-size: 3vw;
-  }
+
   .landingImage img{
     height: 400px;
     width: 52vw;
     margin-bottom: 20px;
   }
+
+    /* LANDING PAGE2 */
+    .landing2{
+      flex-direction: column-reverse;
+      height: 750px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      top: 100px;
+      margin-top: 100px ;
+    }
+    .landingText2 h1{
+      font-size: 6vw;
+      margin: 0 !important;
+    }
+    .landingText2 h3{
+      font-size: 16px;
+      line-height: 30px;
+    }
+  
+    .landingImage2 img{
+      height: 400px;
+      width: 52vw;
+      margin-bottom: 20px;
+    }
 
   /* ABOUT */
   .about{
@@ -331,7 +365,7 @@ html,body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    top: 100px;
+    top: 400px;
     margin-top: 100px ;
   }
   .aboutText h1{
